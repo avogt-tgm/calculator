@@ -1,7 +1,11 @@
 package calculator;
 
 import java.util.List;
-
+/**
+ * Subtractions Methode
+ * @author Andreas Vogt
+ *
+ */
 public class SubstractionCalculator implements OperationsType {
 
 	public List processCalculations(List values , double modifier) {

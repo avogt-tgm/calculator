@@ -1,7 +1,11 @@
 package calculator;
 
 import java.util.List;
-
+/**
+ * Multiplikations Methode
+ * @author Andreas Vogt
+ *
+ */
 public class MultiplicationCalculator implements OperationsType {
 
 	public List processCalculations(List values , double modifier) {
