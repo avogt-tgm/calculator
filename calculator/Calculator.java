@@ -24,6 +24,7 @@ public class Calculator {
 	public Calculator() {
 		values = new LinkedList();
 		modifier = 0;
+		operationstype = null;
 	}
 	/**
 	 * Der Wert im Parameter wird in die Liste hinzugefügt
@@ -68,7 +69,7 @@ public class Calculator {
 	 * @param operationstype
 	 */
 	public void setOperationsType(OperationsType operationstype) {
-		
+		this.operationstype = operationstype;
 	}
 
 }
